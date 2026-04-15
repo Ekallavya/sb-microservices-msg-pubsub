@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: give your access key here
+      secret-key: give your secret key here
+    end-point:
+      uri: give your sns end point uri here -example arn:aws:sns:ap-south-1:123456789012:my-topic
